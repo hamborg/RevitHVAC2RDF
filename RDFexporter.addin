@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type="Application">
+		<Name>RevitToRDFConverter</Name>
+		<Publisher>Technical University of Denmark, DTU Construct</Publisher>
+		<FullClassName>RevitToRDFConverter.App</FullClassName>
+		<Text>Export RDF File of HVAC systems</Text>
+		<Description>Exports Revit HVAC data to RDF data</Description>
+		<!--<VisibilityMode>AlwaysVisible</VisibilityMode>-->
+		<!--<Assembly>C:\Users\lham\OneDrive - Danmarks Tekniske Universitet\Revit2RDF\Parser-main\RevitToRDFConverter\bin\Debug\RevitToRDFConverter.dll</Assembly>--> <!-- Ali's originale script -->
+		<Assembly>C:\Users\lham\OneDrive - Danmarks Tekniske Universitet\Revit2RDF\Parser - LHAM\RevitToRDFConverter\bin\Debug\RevitToRDFConverter.dll</Assembly> <!-- LHAM's edit -->
+		<AddInId>f5ceb2c2-61ee-4603-97f5-8cb3ad2ff526</AddInId>
+		<VendorId>LHAM</VendorId>
+		<VendorDescription>LHAM's edit of ALICUK's parser.</VendorDescription>
+	</AddIn>
+</RevitAddIns>
